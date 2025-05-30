@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+    overflow-y: auto;
+}
+
+#root > div {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.fisrt-column {
+    max-width: 30%;
+    text-align: start;
+}
+
+.second-column {
+    max-width: 70%;
+}
+
+.main-content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    min-width: fit-content;
+    flex: 2;
+    gap: 8px;
+
+    .main-content-details {
+        padding: 6px;width: 100%; 
+        text-align-last: start;
+        align-self: start;         
+        place-self: self-start;
+                align-items: start;
+    }
+
+    input {
+        
+        text-align-last: start;
+        align-self: start;         
+        place-self: self-start;
+        text-transform: uppercase;
+        text-wrap: wrap;
+        word-break: break-all;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    span {
+        font-size: 16px;
+    }
+
+}
+
+img.w-full.h-full {
+    width: fit-content !important;
+}
+
+.grid .item {
+    width: 100%;
+    border-radius: 0;
+}
+
+.icon-check {
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.menu {
+    margin-top: 20px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 24px;
+    cursor: pointer;
+
+    div {
+        display: flex;
+        gap: 8px;
+        flex-wrap: nowrap;
+    }
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 65px;
+    margin-top: 0px;
+
+    div {
+        display: flex;
+        width: 100%;
+        justify-content: start;
+        gap: 16px;
+        margin-top: 0px;
+    }
+
+    button {
+        border-radius: 0px;
+        margin: 0px;
+    }
+}
+
+.fake-button {
+    width: fit-content;
+    padding-bottom: 6px !important;
+    max-width: fit-content;
+    background: rgb(37 99 235 / var(--tw-bg-opacity, 1));
+    color: #fff;
+    padding: 8px 16px;
+
+}
+
+.footer :nth-child(2) {
+    justify-content: end;
+}
+
+
+@media (max-width: 768px) {
+    #root>div .text-center:not(.main-content-details) {
+        max-width: 100% !important;
+    }
+
+    body {
+        overflow-y: auto
+    };
+}

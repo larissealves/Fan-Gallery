@@ -1,0 +1,91 @@
+/* === Popup Overlay === */
+.popup-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(18, 10, 30, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+}
+
+/* === Modal Container === */
+.popup {
+  background: #fffdf9;
+  border-radius: 24px;
+  padding: 32px;
+  max-width: 80%;
+  width: fit-content;
+  max-height: 90%;
+  height: fit-content;
+  overflow-y: auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 0.4s ease;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+/* === Title === */
+.popup h2 {
+  margin-bottom: 18px;
+  font-size: 24px;
+  color: #6cb4e4;
+  text-align: center;
+}
+
+/* === Text === */
+.popup p {
+  color: #333;
+  line-height: 1.5;
+  text-align: center;
+  max-width: 360px;
+}
+
+/* === Image === */
+.popup .img-custom {
+  width: 55%;
+}
+
+.popup .img-custom.barbie {
+  width: 100%;
+}
+
+
+.popup-body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 16px;
+}
+
+/* === Footer === */
+.footer {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+/* === Animation === */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  .popup {
+    margin: 10px;
+    max-width: 90%;
+  }
+
+  .popup .img-custom {
+    width: 40%;
+  }
+}
