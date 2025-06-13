@@ -24,8 +24,8 @@ Users upload 3 reference images and 1 of themselves via upload or camera. A fina
 
 ## 🚀 Live Demo
 
-> *(Optional: Add your deployed site link here)*  
-> Example: [View Live](https://fan-gallery.vercel.app/)
+> *Fan-gallery*  
+> [View Live:] (https://fan-gallery.vercel.app/)
 
 ---
 
