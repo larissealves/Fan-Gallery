@@ -25,7 +25,7 @@ Users upload 3 reference images and 1 of themselves via upload or camera. A fina
 ## 🚀 Live Demo
 
 > *(Optional: Add your deployed site link here)*  
-> Example: [View Live](https://yourdomain.com)
+> Example: [View Live]([https://yourdomain.com](https://fan-gallery.vercel.app/))
 
 ---
 
@@ -104,6 +104,9 @@ Feel free to support via PIX, Wise, or PayPal:
 - 🌍 **Wise**: `larisser4`
 
 ---
+
+## 🖼️ Screenshots
+<img src="https://github.com/larissealves/Fan-Gallery/blob/main/src/images/exemplo.png" height="440" alt="React" />
 
 ## 📄 License
 
