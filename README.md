@@ -1,6 +1,6 @@
 
 # 🧩 Custom reCAPTCHA Generator – *Fan Gallery*
-
+ 
 ## 📌 Project Overview
 
 **Custom reCAPTCHA Generator** is a playful and personalized alternative to the traditional CAPTCHA.  
